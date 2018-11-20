@@ -1,0 +1,107 @@
+
+<html lang="en">
+	<head>
+		<title>1.1</title>
+		<link href="styleA.css" rel="stylesheet">
+		<meta charset="utf-8" />
+		<meta content="width=device-width, initial-scale=1" name="viewport"/>
+		<style type="text/css">
+			* 
+			{
+   				box-sizing: border-box;
+			}
+			body
+			{
+				font-family: Arial, Helvetica, sans-serif;
+			}
+			header
+			{
+				background-color: black;
+				padding: 1px;
+				text-align: center;
+				font-size: 14px;
+				color: white;
+			}
+			nav
+			{
+				float: left;
+				width: 30%;
+				background: red;
+				padding: 20px;
+			}
+			nav ul
+			{
+				list-style-type: none;
+				padding: 0;
+			}
+			a 
+			{ 
+				color: white; 
+				font-style: normal; 
+				text-decoration: none;
+				font-size: 16px;
+			} 
+			a:hover
+			{ 
+				text-decoration: underline;
+				color: white;
+			}
+			article
+			{
+				float: left;
+				padding: 20px;
+				width: 70%;
+				background-color: white;
+				color: black;
+			}
+			section
+			{
+				background-color: white;
+			}
+			section:after
+			{
+				content: "";
+				display: table;
+				clear: both;
+			}
+			footer
+			{
+				background-color: black;
+				padding: 1px;
+				text-align: center;
+				color: white;
+			}
+			@media (max-width: 600px)
+			{
+				nav, article
+				{
+					width: 100%;
+					height: auto;
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<header>
+			<h1>Карина Шимановская</h1>
+		</header>
+		<section>
+			<nav>
+				<ul>
+					<p><a href="index.html" title="Карина Шимановская">Come back</a></p>
+				</ul>
+			</nav>
+			<article id="box">
+				<div class="dark"><p>A</p></div>
+				<div class="light"><p>B</p></div>
+				<div class="dark"><p>C</p></div>
+				<div class="light"><p>D</p></div>
+				<div class="final"><p>F</p></div>
+			</article>
+		</section>
+		<footer>
+</br>
+			<p>Карина Шимановская</p>
+		</footer>
+	</body>
+</html>
